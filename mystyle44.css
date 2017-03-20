@@ -1,0 +1,49 @@
+.lineargradient {
+	width: 120px;
+	height: 120px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 120px;
+	background: -webkit-linear-gradient(left,red,green);
+	background: -o-linear-gradient(left,red,green);
+	background: -moz-linear-gradient(left,red,green);
+	background: linear-gradient(left,red,green);
+	box-shadow: 5px 5px 15px black;
+	border-radius: 15px;
+	margin: 15px;
+}
+
+.radialcirclegradient {
+	width: 120px;
+	height: 120px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 120px;
+	background: -webkit-radial-gradient(top,circle,red,yellow,green);
+	background: -o-radial-gradient(top,circle,red,yellow,green);
+	background: -moz-radial-gradient(top,circle,red,yellow,green);
+	background: radial-gradient(top,circle,red,yellow,green);
+	box-shadow: 5px 5px 15px black;
+	border-radius: 15px;
+	margin: 15px;
+}
+
+.radialeclipsegradient {
+	width: 120px;
+	height: 120px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 120px;
+	background: -webkit-radial-gradient(top, red,yellow,green);
+	background: -o-radial-gradient(top, red,yellow,green);
+	background: -moz-radial-gradient(top, red,yellow,green);
+	background: radial-gradient(top, red,yellow,green);
+	box-shadow: 5px 5px 15px black;
+	border-radius: 15px;
+	margin: 15px;
+}
+
+.primary {
+	display: flex;
+	justify-content: center;
+}
